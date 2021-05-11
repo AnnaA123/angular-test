@@ -12,6 +12,8 @@ import { AddTodoComponent } from './components/add-todo/add-todo.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { TodopageComponent } from './components/pages/todopage/todopage.component';
+import { TourOfHeroesComponent } from './components/pages/tour-of-heroes/tour-of-heroes.component';
+import { HeroesComponent } from './components/heroes/heroes.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { TodopageComponent } from './components/pages/todopage/todopage.componen
     AddTodoComponent,
     AboutComponent,
     HomeComponent,
-    TodopageComponent
+    TodopageComponent,
+    TourOfHeroesComponent,
+    HeroesComponent
   ],
   imports: [
     BrowserModule,

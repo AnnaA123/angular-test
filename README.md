@@ -1,4 +1,13 @@
-# RoutingApp
+# AngularTest
+
+Learning Angular by following these tutorials:
+
+- [Angular tutorial: Tour of Heroes](https://angular.io/tutorial)
+- [Angular Crash Course (2019) by Traversy Media](https://www.youtube.com/watch?v=Fdf5aTYRW0E)
+
+---
+
+## Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
 
