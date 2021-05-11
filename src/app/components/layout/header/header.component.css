@@ -1,8 +1,18 @@
 .header {
   background: #333;
   color: #fff;
-  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
   padding: 10px;
+  align-items: center;
+}
+
+.appname {
+  margin: auto;
+}
+
+.nav {
+  margin: auto;
 }
 
 .header a {
