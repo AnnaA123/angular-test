@@ -15,6 +15,7 @@ import { TodopageComponent } from './components/pages/todopage/todopage.componen
 import { TourOfHeroesComponent } from './components/pages/tour-of-heroes/tour-of-heroes.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroDetailComponent } from './components/hero-detail/hero-detail.component';
+import { MessagesComponent } from './components/messages/messages.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HeroDetailComponent } from './components/hero-detail/hero-detail.compon
     TodopageComponent,
     TourOfHeroesComponent,
     HeroesComponent,
-    HeroDetailComponent
+    HeroDetailComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
