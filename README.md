@@ -4,6 +4,7 @@ Learning Angular by following these tutorials:
 
 - [Angular tutorial: Tour of Heroes](https://angular.io/tutorial)
 - [Angular Crash Course (2019) by Traversy Media](https://www.youtube.com/watch?v=Fdf5aTYRW0E)
+  - Some updates from [Angular Crash Course 2021](https://www.youtube.com/watch?v=3dHNOWTI7H8)
 
 ---
 

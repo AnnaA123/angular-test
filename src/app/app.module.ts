@@ -16,6 +16,8 @@ import { TourOfHeroesComponent } from './components/pages/tour-of-heroes/tour-of
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroDetailComponent } from './components/hero-detail/hero-detail.component';
 import { MessagesComponent } from './components/messages/messages.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { SecondTourOfHeroesComponent } from './components/pages/second-tour-of-heroes/second-tour-of-heroes.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { MessagesComponent } from './components/messages/messages.component';
     TourOfHeroesComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    DashboardComponent,
+    SecondTourOfHeroesComponent
   ],
   imports: [
     BrowserModule,
