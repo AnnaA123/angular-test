@@ -7,6 +7,7 @@ import { TodopageComponent } from './components/pages/todopage/todopage.componen
 import { TourOfHeroesComponent } from './components/pages/tour-of-heroes/tour-of-heroes.component';
 import { SecondTourOfHeroesComponent } from './components/pages/second-tour-of-heroes/second-tour-of-heroes.component';
 import { HeroDetailComponent } from './components/hero-detail/hero-detail.component';
+import { CrashCourseComponent } from './components/pages/crash-course/crash-course.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'angulartutorial', component: TourOfHeroesComponent },
   { path: 'angulartutorial2', component: SecondTourOfHeroesComponent },
   { path: 'detail/:id', component: HeroDetailComponent },
+  { path: 'crashcourse2021', component: CrashCourseComponent },
 ];
 
 @NgModule({

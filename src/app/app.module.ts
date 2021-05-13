@@ -21,6 +21,12 @@ import { MessagesComponent } from './components/messages/messages.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SecondTourOfHeroesComponent } from './components/pages/second-tour-of-heroes/second-tour-of-heroes.component';
 import { HeroSearchComponent } from './components/hero-search/hero-search.component';
+import { ButtonComponent } from './components/layout/button/button.component';
+import { CrashCourseComponent } from './components/pages/crash-course/crash-course.component';
+import { CcHeaderComponent } from './components/layout/cc-header/cc-header.component';
+import { TasksComponent } from './components/tasks/tasks.component';
+import { TaskItemComponent } from './components/task-item/task-item.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -38,7 +44,12 @@ import { HeroSearchComponent } from './components/hero-search/hero-search.compon
     MessagesComponent,
     DashboardComponent,
     SecondTourOfHeroesComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
+    ButtonComponent,
+    CrashCourseComponent,
+    CcHeaderComponent,
+    TasksComponent,
+    TaskItemComponent,
   ],
   imports: [
     BrowserModule,
@@ -47,7 +58,8 @@ import { HeroSearchComponent } from './components/hero-search/hero-search.compon
     FormsModule,
     HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, { dataEncapsulation: false }
-    )
+    ),
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
