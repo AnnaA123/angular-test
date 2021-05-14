@@ -3,9 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http'
 import { FormsModule } from '@angular/forms'
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { InMemoryDataService } from './services/in-memory-data.service';
-
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { TodoItemComponent } from './components/todo-item/todo-item.component';
 import { TodosComponent } from './components/todos/todos.component';
@@ -26,7 +27,6 @@ import { CrashCourseComponent } from './components/pages/crash-course/crash-cour
 import { CcHeaderComponent } from './components/layout/cc-header/cc-header.component';
 import { TasksComponent } from './components/tasks/tasks.component';
 import { TaskItemComponent } from './components/task-item/task-item.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
