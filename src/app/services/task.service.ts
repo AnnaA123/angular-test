@@ -8,21 +8,24 @@ import { TASKS } from './../placeholders/mock-tasks';
   providedIn: 'root'
 })
 export class TaskService {
-  private apiUrl = 'http://localhost:5000/tasks';
+  //private apiUrl = 'http://localhost:5000/tasks';
 
   constructor(private http: HttpClient) { }
+  /*
+    getTasks(): Observable<Task[]> {
+      return this.http.get<Task[]>(this.apiUrl);
+    }
+  */
 
   getTasks(): Observable<Task[]> {
-    return this.http.get<Task[]>(this.apiUrl);
-  }
-
-  /*
-  getTasks(): Task[] {
     const tasks = of(TASKS);
     return tasks;
-
-    //return TASKS;
-
   }
+  /*
+    getTasks(): Task[] {
+      const tasks = of(TASKS);
+      return tasks;
+      //return TASKS;
+    }
   */
 }
